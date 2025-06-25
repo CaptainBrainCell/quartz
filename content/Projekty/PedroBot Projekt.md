@@ -116,6 +116,14 @@ Kedze som tieto poznamky pisal v obsidiane a vyuzival som obsidianovu funkcional
 Po tom, co som si to este ponastavoval tak ako som chcel a uz ked som bol spokojny, tak som si to hodil na github. Z githubu som to vedel prehodit na Netlify tym, ze som si prepojil ucty a tam som si vytvoril novy projekt, kde som nastavil vsetky potrebne veci. Ked som to ponastavoval, tak som to konecne hodil na web. https://quartzp.netlify.app/
 ![[102.png]]
 
-![[103.png]]
+![[104.png]]
 
 Ked som toto dorobil, tak uz ako poslena vec co mi zostala bolo prepojit na lovable prekliky na tuto stranku a jej podstranku co som spravil a uz to ide.
+
+## ERROR LOGGER
+*******
+Ako spravny vlastnici internetovej stranky musime mat niekde v nasom systeme aj nejaky ten error logger. Na stastie pre nas ja som sa s tymto uz chvilku zabaval a uz som aj nieco take robil (pozri v projektoch Error logger), cize viem presne ako na to. Vytvorime si error logera :
+
+![[105.png]]
+
+a zapojime ho do nasich workflowow. Tento Error logger nam v pripade erroru posle spravu do naseho slack servera, kde mame kanal errory, zapise nam tento error do google tabuliek a posle nam aj mail ze nas workflow mal niekde error.
