@@ -7,7 +7,7 @@
 *********************
 ***Prvy krok*** -> pridali sme si telegram get message trigger, ktory sa automaticky spusti, ked mu na telegram posleme spravu
 
-***Druhy krok*** -> Pridali sme si AI Agenta (BLOG CREATOR), ktory ma za ulohu zobrat spravu z telegramu, na zaklade tej spravy vyhladat informacie na webe cez [[Tavily]] , ktore nasledne spracuje a vytvori z nich blog. Vlastnosti blogu sme si nastavili v system prompte [[blog_generator_system_prompt]]
+***Druhy krok*** -> Pridali sme si AI Agenta (BLOG CREATOR), ktory ma za ulohu zobrat spravu z telegramu, na zaklade tej spravy vyhladat informacie na webe cez [[tavily]] , ktore nasledne spracuje a vytvori z nich blog. Vlastnosti blogu sme si nastavili v system prompte [[blog_generator_system_prompt]]
 
 ***Treti krok*** -> Pridali sme Set Node, ten nam zabezpeci to, ze ked sa nam nas blog nebude pacit a budeme tam chciet nieco zmenit tak nebudeme musiet vzdy upravovat povodny blog originalne z BLOG CREAT agenta ale nastavime si ho ako post do set nodu a vzdy ked sa nam v tom blogu nieco zmeni tak automaticky sa nastavi zmeny blog na post . 
 
