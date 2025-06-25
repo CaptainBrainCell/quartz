@@ -124,6 +124,6 @@ Ked som toto dorobil, tak uz ako poslena vec co mi zostala bolo prepojit na lova
 *******
 Ako spravny vlastnici internetovej stranky musime mat niekde v nasom systeme aj nejaky ten error logger. Na stastie pre nas ja som sa s tymto uz chvilku zabaval a uz som aj nieco take robil (pozri v projektoch Error logger), cize viem presne ako na to. Vytvorime si error logera :
 
-![[105.png]]
+![[rre.png]]
 
 a zapojime ho do nasich workflowow. Tento Error logger nam v pripade erroru posle spravu do naseho slack servera, kde mame kanal errory, zapise nam tento error do google tabuliek a posle nam aj mail ze nas workflow mal niekde error.
