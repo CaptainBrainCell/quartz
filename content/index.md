@@ -1,8 +1,3 @@
----
-title: Vitajte na mojej poznámkovej stránke
-description: Osobná zbierka projektov, poznámok a nápadov.
----
-
 # 🧠 Vitajte na mojej poznámkovej stránke
 
 Toto je moja osobná digitálna záhrada vytvorená pomocou Quartz – priestor, kde si ukladám a zdieľam poznámky k rôznym projektom, na ktorých pracujem alebo som pracoval.
@@ -29,7 +24,7 @@ Jedným z mojich najzaujímavejších projektov je **PedroBot** – jednoduchý 
 **Backend** som vytvoril pomocou N8N – open source nástroja na vizuálnu automatizáciu. Ten zabezpečuje komunikáciu s používateľom a zapisovanie údajov do databázy.  
 **Frontend** som postavil pomocou nástroja Lovable, ktorý umožňuje rýchlo vytvárať jednoduché rozhrania.
 
-🗣️ PedroBot má vlastnú stránku, takže ak sa ho chcete niečo spýtať, môžete tak urobiť tu: **[(https://pedrobot.netlify.app)]**
+🗣️ PedroBot má vlastnú stránku, takže ak sa ho chcete niečo spýtať, môžete tak urobiť tu: **https://pedrobot.netlify.app**
 
 > **Poznámka:** PedroBot pracuje výlučne s informáciami z tejto stránky. Nepoužíva otvorenú pamäť, aby sa predišlo halucináciám. Ak sa ho spýtate niečo, čo v poznámkach nenájdete, pravdepodobne nebude vedieť odpovedať.
 
