@@ -107,4 +107,15 @@ Tu ma nas AI agent pristup k viacerym toolkam, co mu umoznuje lepsie pracovat s 
 
 ## USER INTERFACE
 ******************
-Cez lovable som si vytvoril taku jednoduchu user interface, ktora je minimalistica a pekna. Tu sa bude user pytat na otazky a cela konverzacia bude prebiehat tu. Upravil som si to tak, aby sa mi to pacilo a pridal som tam nejake prvky ako napriklad ***MOZES SA MA OPYTAT NA TOTO***, na ktore ked user klikne tak ho to prehodi na podstranku, kde si bude moct pozerat vsetky tieto poznznamky alebo ***AKO SOM BOL STVORENY*** na ktore ked klikne tak uvidi tento dokument, kde zapisujem co som robil, ako som robil .... ![[100.png]]
+Cez lovable som si vytvoril taku jednoduchu user interface, ktora je minimalistica a pekna. Tu sa bude user pytat na otazky a cela konverzacia bude prebiehat tu. Upravil som si to tak, aby sa mi to pacilo a pridal som tam nejake prvky ako napriklad ***MOZES SA MA OPYTAT NA TOTO***, na ktore ked user klikne tak ho to prehodi na podstranku, kde si bude moct pozerat vsetky tieto poznznamky alebo ***AKO SOM BOL STVORENY*** na ktore ked klikne tak uvidi tento dokument, kde zapisujem co som robil, ako som robil .... 
+![[100.png]]
+
+## PREKLIKY NA INTERFACE
+Kedze som tieto poznamky pisal v obsidiane a vyuzival som obsidianovu funkcionalitu preklikov, vkladania obrazkov a takychto blbosti, musel som najst aj nieco, co tento format podporuje. A tak som nasiel [[quartz]]. Ten mi umoznuje narabat s poznamkami tak isto a pouziva taku istu funkcionalitu ako obsidian. Ten som si teda nastavil a spustil ho najskor na localhost, nech si vyskusam, ci vsetko funguje tak, ako ma ( npm run quartz -- build) .
+![[101.png]]
+Po tom, co som si to este ponastavoval tak ako som chcel a uz ked som bol spokojny, tak som si to hodil na github. Z githubu som to vedel prehodit na Netlify tym, ze som si prepojil ucty a tam som si vytvoril novy projekt, kde som nastavil vsetky potrebne veci. Ked som to ponastavoval, tak som to konecne hodil na web. https://quartzp.netlify.app/
+![[102.png]]
+
+![[103.png]]
+
+Ked som toto dorobil, tak uz ako poslena vec co mi zostala bolo prepojit na lovable prekliky na tuto stranku a jej podstranku co som spravil a uz to ide.
