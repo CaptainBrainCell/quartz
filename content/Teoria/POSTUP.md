@@ -18,4 +18,4 @@
 		Musime si tam taktiez zaskrtnut to, ze to ma robit ako JSON, aby nam to rozdelilo na 2 casti (subject a email body), lebo teraz sme to mali len ako 1 velky celok(content).
 
 ***Siesty krok***
-	Uz nam zostava len posledne a to ten vytvoreny e-mail poslat nasemu timu, ktory spracuvava faktury, na to, aby to zaplatili. Tym padom sme im usetrili a zautomatizovali celu jednu cast businessu, ktorou je Analyza emailu, Preskumanie, Spisanie, Zapisanie do databazy, Napisanie/prepisanie emailu			![[28 1.png]]
+	Uz nam zostava len posledne a to ten vytvoreny e-mail poslat nasemu timu, ktory spracuvava faktury, na to, aby to zaplatili. Tym padom sme im usetrili a zautomatizovali celu jednu cast businessu, ktorou je Analyza emailu, Preskumanie, Spisanie, Zapisanie do databazy, Napisanie/prepisanie emailu			![[28.png]]
