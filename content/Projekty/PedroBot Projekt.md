@@ -127,3 +127,16 @@ Ako spravny vlastnici internetovej stranky musime mat niekde v nasom systeme aj 
 ![[rre.png]]
 
 a zapojime ho do nasich workflowow. Tento Error logger nam v pripade erroru posle spravu do naseho slack servera, kde mame kanal errory, zapise nam tento error do google tabuliek a posle nam aj mail ze nas workflow mal niekde error.
+
+## DASHBOARD
+***********
+Ako poslednu vec som chcel k mojmu pedrobotovi dorobit dashboard, kde by sme videli live data, a interakcie userov medzi pedrobotom a userom. Tak som sa do toho pustil. Najskor som spravil user interface (frontend) tiez s pomocou lovable a ponastavoval som to tak, aby som to potom mohol prepojit s n8n backendom. 
+![[111.png]]
+
+To bola ta lahsia cast. Teraz som to musel prepojit tak, aby to zbieralo live data, zapisovalo do databazy a z databazy vytahovalo a ukazovalo na dashboarde. To znamena ze som musel trosku pozmenit hlavnu cast pedrobota na to, aby to vedel urobit a taktiez som musel dorobit analytics workflow, ktory spracuvaval data a rozdeloval ich do roznych kategorii . 
+***Analytics***
+![[113.png]]
+
+Tento n8n workflow vytvori API endpoint , ktory pri GET poziadavke spusti tri paralelne PostgreSQL dotazy na ziskanie statistik chatbota (zakladne udaje, tyzdenna aktivita, typy otazok), spracuje vzsledky pomocou [[JavaScript kodu]] do jednotneho JSON formatu a vrati data, ktore potom dame do pedrobot dashboardy. V teoretickom zneni by to uz malo ist. Do databazy to zapisuje, v databaze to zapisuje dobre, informacie to vyhodnoti dobre, webhook je dobre nastaveny a v lovable to je tiez dobre nastavene. Ale z nejakeho dovodu to nejde. Takze este musim prist na to co tam je zle. 
+## work in progress
+**************************
