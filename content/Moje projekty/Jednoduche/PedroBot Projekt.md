@@ -131,7 +131,7 @@ a zapojime ho do nasich workflowow. Tento Error logger nam v pripade erroru posl
 ## DASHBOARD
 ***********
 Ako poslednu vec som chcel k mojmu pedrobotovi dorobit dashboard, kde by sme videli live data, a interakcie userov medzi pedrobotom a userom. Tak som sa do toho pustil. Najskor som spravil user interface (frontend) tiez s pomocou lovable a ponastavoval som to tak, aby som to potom mohol prepojit s n8n backendom. 
-![[111.png]]
+![[111 1.png]]
 
 To bola ta lahsia cast. Teraz som to musel prepojit tak, aby to zbieralo live data, zapisovalo do databazy a z databazy vytahovalo a ukazovalo na dashboarde. To znamena ze som musel trosku pozmenit hlavnu cast pedrobota na to, aby to vedel urobit a taktiez som musel dorobit analytics workflow, ktory spracuvaval data a rozdeloval ich do roznych kategorii . 
 ***Analytics***
