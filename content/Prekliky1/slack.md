@@ -1,0 +1,1 @@
+Slack je aplikácia určená primárne na pracovnú komunikáciu a spoluprácu v tímoch. Je to platforma, ktorá umožňuje členom tímu komunikovať prostredníctvom textových správ, hlasových a videohovorov, zdieľať súbory a integrovať rôzne pracovné nástroje. Slack je rozsiahlo využívaný v rôznych typoch organizácií, od malých startupov až po veľké firmy
